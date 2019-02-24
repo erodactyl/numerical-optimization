@@ -18,9 +18,7 @@ function minimum = FibonacciSearch(f, a, b, n)
 end
 
 function res = fibonacci(n)
-	if (n == 1)
-		 res = 1;
-	elseif (n == 2)
+	if (n == 1 | n == 2)
 		 res = 1;
 	else
 		 fOld = 1;
