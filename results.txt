@@ -1,0 +1,141 @@
+
+
+FIRST FUNCTION
+
+--> n is 2
+golden =  0.88027
+fib =  1.0473
+bisection =  0.90245
+newton =  0.85950
+
+golden_error =  0.021611
+fib_error =  0.18866
+bisection_error =  0.043785
+newton_error =  0.00083537
+
+--> n is 4
+golden =  0.86548
+fib =  0.86664
+bisection =  0.85947
+newton =  0.85866
+
+golden_error =  0.0068181
+fib_error =  0.0079808
+bisection_error =  0.00081233
+newton_error =  0.0000016190
+
+--> n is 8
+golden =  0.85867
+fib =  0.85954
+bisection =  0.85866
+newton =  0.85866
+
+golden_error =  0.0000083716
+fib_error =  0.00087671
+bisection_error =  0.0000047872
+newton_error =  0.0000016190
+
+--> n is 16
+golden =  0.85866
+fib =  0.85866
+bisection =  0.85866
+newton =  0.85866
+
+golden_error =  0.0000016318
+fib_error =  0.0000017263
+bisection_error =  0.0000016191
+newton_error =  0.0000016190
+
+
+SECOND FUNCTION
+
+--> n is 2
+golden = -2.1911
+fib =  2.2408
+bisection =  2.2408
+newton =  2.2408
+
+golden_error =  0.049741
+fib_error =  4.4817
+bisection_error =  4.4817
+newton_error =  4.4817
+
+--> n is 4
+golden = -2.2398
+fib = -2.2045
+bisection =  2.2408
+newton =  2.2408
+
+golden_error =  0.0010035
+fib_error =  0.036322
+bisection_error =  4.4817
+newton_error =  4.4817
+
+--> n is 8
+golden = -2.2401
+fib = -2.2378
+bisection =  2.2408
+newton =  2.2408
+
+golden_error =  0.00074057
+fib_error =  0.0029935
+bisection_error =  4.4817
+newton_error =  4.4817
+
+--> n is 16
+golden = -2.2408
+fib = -2.2408
+bisection =  2.2408
+newton =  2.2408
+
+golden_error =  0.0000045254
+fib_error =  0.0000038603
+bisection_error =  4.4817
+newton_error =  4.4817
+
+
+THIRD FUNCTION
+
+--> n is 2
+golden = -2.1081
+fib = -1.9722
+bisection = -2.2408
+newton = -0.0086749
+
+golden_error =  0.13275
+fib_error =  0.26861
+bisection_error =  0.0000045352
+newton_error =  2.2322
+
+--> n is 4
+golden = -2.2047
+fib = -2.0916
+bisection = -2.2408
+newton = -0.00091089
+
+golden_error =  0.036093
+fib_error =  0.14926
+bisection_error =  0.0000045352
+newton_error =  2.2399
+
+--> n is 8
+golden = -2.2405
+fib = -2.2401
+bisection = -2.2408
+newton = -0.000012067
+
+golden_error =  0.00038497
+fib_error =  0.00074067
+bisection_error =  0.0000045352
+newton_error =  2.2408
+
+--> n is 16
+golden = -2.2408
+fib = -2.2408
+bisection = -2.2408
+newton = -0.0000000027564
+
+golden_error =  0.0000041995
+fib_error =  0.0000031924
+bisection_error =  0.0000045352
+newton_error =  2.2408
