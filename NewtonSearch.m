@@ -1,6 +1,7 @@
-function result = NewtonSearch(f, fprime, fprimeprime, a, b, n)
-	result = (a + b) / 2;
+function minimum = NewtonSearch(f, fprime, fprimeprime, a, b, n)
+	argmin = (a + b) / 2;
 	for i = 1:n
-		result = result - (fprime(result) / fprimeprime(result));
+		argmin = argmin - (fprime(argmin) / fprimeprime(argmin));
 	end
+	minimum = f(argmin);
 end

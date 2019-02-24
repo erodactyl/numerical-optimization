@@ -1,8 +1,8 @@
-function result = GoldenSectionSearch(f, a, b, n)
+function minimum = GoldenSectionSearch(f, a, b, n)
 	golden_ratio = (3 - sqrt(5)) / 2;
 	a0 = a;
 	b0 = b;
-	result = (a0 + b0) / 2;
+	argmin = (a0 + b0) / 2;
 	for i = 1:n
 		distance = b0 - a0;
 		a1 = a0 + golden_ratio * distance;
@@ -12,6 +12,7 @@ function result = GoldenSectionSearch(f, a, b, n)
 		else
 			a0 = a1;
 		end
-		result = (a0 + b0) / 2;
+		argmin = (a0 + b0) / 2;
 	end
+	minimum = f(argmin);
 end

@@ -1,7 +1,7 @@
-function result = FibonacciSearch(f, a, b, n)
+function minimum = FibonacciSearch(f, a, b, n)
 	a0 = a;
 	b0 = b;
-	result = (a0 + b0) / 2;
+	argmin = (a0 + b0) / 2;
 	for i = 1:n
 		distance = b0 - a0;
 		r = 1 - fibonacci(n - i + 2) / fibonacci(n - i + 3);
@@ -12,8 +12,9 @@ function result = FibonacciSearch(f, a, b, n)
 		else
 			a0 = a1;
 		end
-		result = (a0 + b0) / 2;
+		argmin = (a0 + b0) / 2;
 	end
+	minimum = f(argmin);
 end
 
 function res = fibonacci(n)
